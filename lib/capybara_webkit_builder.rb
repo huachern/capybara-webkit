@@ -51,7 +51,7 @@ module CapybaraWebkitBuilder
   def path_to_binary
     case RUBY_PLATFORM
     when /mingw32/
-      "src/debug/webkit_server.exe"
+      "src/release/webkit_server.exe"
     else
       "src/webkit_server"
     end
